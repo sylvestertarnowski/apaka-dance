@@ -1,4 +1,17 @@
 .header { 
     background-color: rgb(242, 58, 45); 
     color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.header-container {
+    display: flex;
+}
+
+#header-nav-buttons {
+    display: flex;
+    margin-left: auto;
 }
