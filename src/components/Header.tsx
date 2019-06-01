@@ -10,9 +10,15 @@ const Header: React.FC = () => {
                 <div className="header-container">
                     <div id="header-logo-button">alpakaDance</div>
                     <div id="header-nav-buttons">
-                        <div>Strona Główna</div>
-
-                        <div>Zajęcia</div>
+                        <NavLink 
+                            text="Strona Główna"
+                            nav="home"
+                            bold={true}
+                        />
+                        <NavLink 
+                            text="Zajęcia"
+                            nav="classes"
+                        />
                         <div>Usługi</div>
                         <div>O mnie</div>
                         <div>Kontakt</div>

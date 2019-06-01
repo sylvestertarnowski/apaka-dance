@@ -9,7 +9,7 @@ type NavLink = {
 const NavLink: React.FC<NavLink> = (props) => {
     const { text, bold, nav } = props;
 
-    const weight = bold ? 400 : 600;
+    const weight = bold ? 600 : 400;
 
     const style = {
         fontWeight: weight,
