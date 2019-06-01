@@ -1,6 +1,7 @@
 import * as React from 'react';
 import WidthWrapper from '../layout/WidthWrapper';
 import NavButtonsRight from './header/NavButtonsRight';
+import NavHomeButton from './header/NavHomeButton';
 import '../css/header/Header.css';
 
 const Header: React.FC = () => {
@@ -8,7 +9,10 @@ const Header: React.FC = () => {
         <div className="header">
             <WidthWrapper>
                 <div className="header-container">
-                    <div id="header-logo-button">alpakaDance</div>
+                    <NavHomeButton 
+                        nameStart="alpaka"
+                        nameEnd="Dance"
+                    />
                     <NavButtonsRight />
                 </div>
             </WidthWrapper>

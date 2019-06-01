@@ -41,7 +41,7 @@ const navButtons = navButtonsData.map(item => {
 
 const NavButtonsRight: React.FC = () => {
     return (
-        <div id="header-nav-buttons">
+        <div id="nav-buttons-right">
             {navButtons}
         </div>
     )

@@ -4,7 +4,7 @@ import '../../css/header/NavLink.css';
 type NavLink = {
     text: string;
     nav: string;
-    bold?: boolean;
+    bold: boolean;
 }
 
 const NavLink: React.FC<NavLink> = (props) => {
@@ -17,7 +17,10 @@ const NavLink: React.FC<NavLink> = (props) => {
     }
 
     return (
-        <div style={style}>
+        <div 
+            style={style} 
+            className="nav-buttons-right-item"
+        >
             <a href={`#${nav}`}>{text}</a>
         </div>
     )
