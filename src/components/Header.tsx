@@ -19,9 +19,18 @@ const Header: React.FC = () => {
                             text="Zajęcia"
                             nav="classes"
                         />
-                        <div>Usługi</div>
-                        <div>O mnie</div>
-                        <div>Kontakt</div>
+                        <NavLink 
+                            text="Usługi"
+                            nav="services"
+                        />
+                        <NavLink 
+                            text="O mnie"
+                            nav="about"
+                        />
+                        <NavLink 
+                            text="Kontakt"
+                            nav="contact"
+                        />
                     </div>
                 </div>
             </WidthWrapper>
