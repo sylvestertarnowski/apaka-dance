@@ -1,9 +1,10 @@
 import * as React from 'react';
+import SliderTitle from './main/SliderTitle';
 
 const Main: React.FC = () => {
     return (
-        <div>
-            Main
+        <div className="main">
+            <SliderTitle />
         </div>
     )
 }
