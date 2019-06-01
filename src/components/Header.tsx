@@ -1,5 +1,6 @@
 import * as React from 'react';
 import WidthWrapper from '../layout/WidthWrapper';
+import NavLink from '../layout/NavLink';
 import '../css/Header.css';
 
 const Header: React.FC = () => {
@@ -10,6 +11,7 @@ const Header: React.FC = () => {
                     <div id="header-logo-button">alpakaDance</div>
                     <div id="header-nav-buttons">
                         <div>Strona Główna</div>
+
                         <div>Zajęcia</div>
                         <div>Usługi</div>
                         <div>O mnie</div>
