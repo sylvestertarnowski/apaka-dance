@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../css/header/NavLink.css';
 
 type NavLink = {
     text: string;
