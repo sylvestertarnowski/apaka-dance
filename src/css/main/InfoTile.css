@@ -1,0 +1,9 @@
+.info-tile {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-tile-title {
+    font-size: 20px;
+    border-bottom: 10px solid red;
+}
