@@ -13,7 +13,7 @@ const Main: React.FC = () => {
                     <InfoTile
                         image=""
                         title="New Tile"
-                        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dignissim ut dolor quis convallis. Sed egestas quis augue id imperdiet. Ut non efficitur lorem. Sed maximus quam et lorem euismod vestibulum."
+                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dignissim ut dolor quis convallis. Sed egestas quis augue id imperdiet. Ut non efficitur lorem. Sed maximus quam et lorem euismod vestibulum."
                     />
                 </TilesWrapper>
             </WidthWrapper>
