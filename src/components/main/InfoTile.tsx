@@ -2,22 +2,32 @@ import React, { ReactChildren } from 'react';
 import '../../css/main/InfoTile.css';
 
 type P = {
-    image: string;
+    image?: string;
     title: string;
+    icon?: string;
     description?: string;
     node?: ReactChildren;
-    alt: string;
- }
+    alt?: string;
+}
 
 const InfoTile: React.FC<P> = (props) => {
-    const { image, title, description, alt, node } = props;
+    const { image, title, description, alt, node, icon } = props;
+
+    const faIcon = <i className={`${icon}`}></i>;
+    const tileImage = <img src={`${image}`} alt={`${alt}`} />;
+    let finalResult: JSX.Element | null;
+
+    if (image) {
+        finalResult = tileImage;
+    } else if (icon) {
+        finalResult = faIcon;
+    } else {
+        finalResult = null;
+    }
 
     return (
         <div className="info-tile">
-            <img 
-                src={`${image}`}
-                alt={`${alt}`}
-            />
+            {finalResult}
             <div className="info-tile-title">
                 {title}
             </div>
