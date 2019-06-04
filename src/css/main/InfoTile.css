@@ -1,9 +1,16 @@
 .info-tile {
     display: flex;
     flex-direction: column;
+    padding: 20px;
+    border-bottom: 1px solid grey;
+}
+
+.info-tile:nth-child(odd) {
+    background-color: #eee;
 }
 
 .info-tile-title {
     font-size: 20px;
-    border-bottom: 10px solid red;
+    padding: 10px 0;
+    border-bottom: 3px solid red;
 }

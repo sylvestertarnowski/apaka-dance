@@ -4,7 +4,7 @@ import '../../css/main/SliderTitle.css';
 class SliderTitle extends React.Component {
     render() {
         const divOne = <div>Czerp radość z tańca</div>;
-        const divTwo = <div>Bądź najlepszym tancerze na dzielni</div>;
+        // const divTwo = <div>Bądź najlepszym tancerze na dzielni</div>;
         return (
             <div className="slider-title-container">
                 <div>{"<-"}</div>
