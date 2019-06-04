@@ -1,15 +1,16 @@
-import React from 'react';
+import React, { ReactChildren } from 'react';
 import '../../css/main/InfoTile.css';
 
 type P = {
     image: string;
     title: string;
-    description: string;
+    description?: string;
+    node?: ReactChildren;
     alt: string;
  }
 
 const InfoTile: React.FC<P> = (props) => {
-    const { image, title, description, alt } = props;
+    const { image, title, description, alt, node } = props;
 
     return (
         <div className="info-tile">
@@ -21,7 +22,7 @@ const InfoTile: React.FC<P> = (props) => {
                 {title}
             </div>
             <div className="info-tile-description">
-                {description}
+                {description ? description : (node && node)}
             </div>
         </div>
     )
