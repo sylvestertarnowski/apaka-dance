@@ -20,7 +20,7 @@
     "jsx": "preserve"
   },
   "include": [
-    "src"
+    "src", "src/components/main/.tsx"
   ],
   "strict": true
 }
