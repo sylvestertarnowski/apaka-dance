@@ -8,10 +8,11 @@ type P = {
     description?: string;
     node?: ReactNode;
     alt?: string;
+    optionalClass?: string;
 }
 
 const InfoTile: React.FC<P> = (props) => {
-    const { image, title, description, alt, node, icon } = props;
+    const { image, title, description, alt, node, icon, optionalClass } = props;
 
     const faIcon = <i className={`${icon}`}></i>;
     const tileImage = <img src={`${image}`} alt={`${alt}`} />;
@@ -26,7 +27,7 @@ const InfoTile: React.FC<P> = (props) => {
     }
 
     return (
-        <div className="info-tile">
+        <div className={`info-tile ${optionalClass}`}>
             {finalResult}
             <div className="info-tile-title">
                 {title}
