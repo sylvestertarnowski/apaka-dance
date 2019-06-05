@@ -32,6 +32,7 @@ const InfoTile: React.FC<P> = (props) => {
             <div className="info-tile-title">
                 {title}
             </div>
+            <div className="info-tile-title-border-bottom"/>
             <div className="info-tile-description">
                 {description ? description : (node && node)}
             </div>

@@ -1,7 +1,20 @@
-.dance-types-container {
+.dance-types {
     background-color: #eee;
 }
 
-.dance-types-container .info-tile-title {
+.dance-types .info-tile-title {
     text-align: center;
+}
+
+.dance-types .info-tile-title-border-bottom {
+    align-self: center;
+}
+
+.dance-types-image-container {
+    display: flex;
+}
+
+.dance-types-image-container img {
+    object-fit: cover;
+    width: 200px;
 }
