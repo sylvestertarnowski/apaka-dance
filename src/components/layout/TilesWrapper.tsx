@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/layout/TilesWrapper.css';
+import '../../css/layout/TilesWrapper.css';
 
 const TilesWrapper: React.FC = (props) => {
     const { children } = props;

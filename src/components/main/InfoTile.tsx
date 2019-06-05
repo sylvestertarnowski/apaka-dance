@@ -1,4 +1,4 @@
-import React, { ReactChildren } from 'react';
+import React, { ReactNode } from 'react';
 import '../../css/main/InfoTile.css';
 
 type P = {
@@ -6,7 +6,7 @@ type P = {
     title: string;
     icon?: string;
     description?: string;
-    node?: ReactChildren;
+    node?: ReactNode;
     alt?: string;
 }
 

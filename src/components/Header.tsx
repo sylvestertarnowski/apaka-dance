@@ -1,5 +1,5 @@
 import * as React from 'react';
-import WidthWrapper from '../layout/WidthWrapper';
+import WidthWrapper from './layout/WidthWrapper';
 import NavButtonsRight from './header/NavButtonsRight';
 import NavHomeButton from './header/NavHomeButton';
 import '../css/header/Header.css';

@@ -1,5 +1,5 @@
 import React from 'react';
-import TilesWrapper from '../../layout/TilesWrapper';
+import TilesWrapper from '../layout/TilesWrapper';
 import InfoTile from './InfoTile';
 
 const DanceTypes: React.FC = () => {
