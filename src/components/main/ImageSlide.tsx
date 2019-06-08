@@ -10,13 +10,13 @@ const ImageSlide: React.FunctionComponent<P> = (props) => {
     const { url, size, position } = props;
 
     const styles = {
-        backgroundImage: `url(${url})`,
         backgroundSize: size ? size : 'cover',
         backgroundPosition: position ? position : 'center',
     } as React.CSSProperties;
 
     return (
         <div className="image-slide" style={styles}>
+            <img src={url} />
         </div>
     )
 }

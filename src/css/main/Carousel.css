@@ -1,7 +1,2 @@
 .carousel-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(107, 122, 124);
-    min-height: 600px;
 }
