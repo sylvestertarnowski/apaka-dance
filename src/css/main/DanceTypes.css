@@ -16,5 +16,6 @@
 
 .dance-types-image-container img {
     object-fit: cover;
-    width: 200px;
+    width: 300px;
+    height: 300px;
 }
