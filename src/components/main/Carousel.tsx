@@ -5,19 +5,42 @@ import imgOne from '../../img/slide-one.jpg';
 import imgTwo from '../../img/slide-two.jpg';
 import ImageSlide from './ImageSlide';
 
+
 class Carousel extends React.Component {
+    readonly state = {
+        currentImageIndex: 0,
+        imgUrls: [
+            imgOne,
+            imgTwo,
+        ]
+    }
+
+    nextSlide = () => {
+
+    }
+
+    previousSlide = () => {
+
+    }
+
     render() {
+        const { imgUrls, currentImageIndex } = this.state;
 
         return (
             <div className="carousel-container">
-                {/* <CarouselNavButton 
-                    direction="<"
-                /> */}
-                <ImageSlide url={ imgOne } />
-                {/* <ImageSlide url={ imgTwo } />
+                <CarouselNavButton 
+                    direction="left"
+                    glyph="&#9664;"
+                    clickFunction={this.nextSlide}
+                />
+
+                <ImageSlide url={ imgUrls[currentImageIndex] } />
+
                 <CarouselNavButton
-                    direction=">"
-                /> */}
+                    direction="right"
+                    glyph="&#9654;"
+                    clickFunction={this.previousSlide}
+                />
             </div>
         )
     }

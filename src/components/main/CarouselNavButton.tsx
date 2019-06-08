@@ -1,16 +1,21 @@
 import * as React from 'react';
 
 type P = {
-    direction: "<" | ">";
+    glyph: string;
+    direction: string; 
+    clickFunction: () => void;
 }
 
 const CarouselNavButton: React.FC<P> = (props) => {
-    const { direction } = props;
+    const { glyph, direction, clickFunction } = props;
 
     return (
-        <button>
-            {direction}
-        </button>
+        <div
+            className={`slide-arrow-${direction}`}
+            onClick={clickFunction}
+        >
+            {glyph}
+        </div>
     )
 }
 

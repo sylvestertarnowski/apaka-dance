@@ -12,11 +12,12 @@ const ImageSlide: React.FunctionComponent<P> = (props) => {
     const styles = {
         backgroundSize: size ? size : 'cover',
         backgroundPosition: position ? position : 'center',
+        maxWidth: "100%",
     } as React.CSSProperties;
 
     return (
-        <div className="image-slide" style={styles}>
-            <img src={url} />
+        <div className="image-slide">
+            <img src={url} style={styles} />
         </div>
     )
 }
