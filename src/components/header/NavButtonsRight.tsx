@@ -32,6 +32,7 @@ const navButtonsData = [
 const navButtons = navButtonsData.map(item => {
     return (
         <NavLink
+            key={item.nav}
             text={item.text}
             nav={item.nav}
             bold={item.bold}

@@ -1,17 +1,19 @@
 import * as React from 'react';
 import CarouselNavButton from './CarouselNavButton';
 import '../../css/main/Carousel.css';
+import imgOne from '../../img/placeholder-dance.jpg';
+import imgTwo from '../../img/placeholder-dance2.jpg';
+import ImageSlide from './ImageSlide';
 
 class Carousel extends React.Component {
     render() {
-        const divOne = <div>Czerp radość z tańca</div>;
-        // const divTwo = <div>Bądź najlepszym tancerze na dzielni</div>;
+
         return (
             <div className="carousel-container">
                 <CarouselNavButton 
                     direction="<"
                 />
-                {divOne}
+                <ImageSlide url={ imgOne } />
                 <CarouselNavButton
                     direction=">"
                 />
