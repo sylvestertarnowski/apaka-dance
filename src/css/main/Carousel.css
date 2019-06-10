@@ -1,3 +1,38 @@
 .carousel-container {
     display: flex;
 }
+
+.image-slide {
+    display: flex;
+    justify-content: center;
+    height: 900px;
+    width: 100%;
+    transition: background-image .3s ease-in-out;
+}
+
+.slide-arrow {
+	color: rgb(242, 58, 45); 
+	cursor: pointer;
+    font-size: 2rem;
+    position: absolute;
+	align-self: center;
+}
+
+.slide-arrow.right {
+	right: 1rem;
+}
+
+.slide-arrow.left {
+	left: 1rem;
+}
+
+#image-slide-description {
+    justify-self: center;
+    align-self: center;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: 600;
+    max-width: 400px;
+    text-align: center;
+    text-shadow: 2px 2px 3px black;
+}

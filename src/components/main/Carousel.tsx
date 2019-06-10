@@ -14,6 +14,12 @@ class Carousel extends React.Component {
             imgTwo,
             imgOne,
             imgTwo,
+        ],
+        imgText: [
+            "Build confidence and have fun",
+            "Learn to be the great at dancing",
+            "Build confidence and have fun",
+            "Learn to be the great at dancing",
         ]
     }
 
@@ -40,7 +46,7 @@ class Carousel extends React.Component {
     }
 
     render() {
-        const { imgUrls, currentImageIndex } = this.state;
+        const { imgUrls, imgText, currentImageIndex } = this.state;
 
         return (
             <div className="carousel-container">
@@ -50,7 +56,10 @@ class Carousel extends React.Component {
                     clickFunction={this.nextSlide}
                 />
 
-                <ImageSlide url={ imgUrls[currentImageIndex] } />
+                <ImageSlide 
+                    url={ imgUrls[currentImageIndex] }
+                    description={ imgText[currentImageIndex] }
+                />
 
                 <CarouselNavButton
                     direction="right"

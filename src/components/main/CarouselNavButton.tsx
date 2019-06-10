@@ -11,7 +11,7 @@ const CarouselNavButton: React.FC<P> = (props) => {
 
     return (
         <div
-            className={`slide-arrow-${direction}`}
+            className={`slide-arrow ${direction}`}
             onClick={clickFunction}
         >
             {glyph}
