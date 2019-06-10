@@ -12,15 +12,31 @@ class Carousel extends React.Component {
         imgUrls: [
             imgOne,
             imgTwo,
+            imgOne,
+            imgTwo,
         ]
     }
 
     nextSlide = () => {
+        const { imgUrls, currentImageIndex } = this.state;
+        const lastIndex = imgUrls.length - 1;
+        const shouldResetIndex = currentImageIndex === lastIndex;
+        const index = shouldResetIndex ? 0 : currentImageIndex + 1;
 
+        this.setState({
+            currentImageIndex: index,
+        });
     }
 
     previousSlide = () => {
+        const { imgUrls, currentImageIndex } = this.state;
+        const lastIndex = imgUrls.length - 1;
+        const shouldResetIndex = currentImageIndex === 0;
+        const index = shouldResetIndex ? lastIndex : currentImageIndex - 1;
 
+        this.setState({
+            currentImageIndex: index,
+        });
     }
 
     render() {

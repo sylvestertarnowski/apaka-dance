@@ -17,7 +17,7 @@ const ImageSlide: React.FunctionComponent<P> = (props) => {
 
     return (
         <div className="image-slide">
-            <img src={url} style={styles} />
+            <img src={url} style={styles} alt="carousel slide" />
         </div>
     )
 }
