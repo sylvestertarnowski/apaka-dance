@@ -10,13 +10,16 @@
     align-self: center;
 }
 
-.dance-types-image-container {
+/* .dance-types-image-container {
     display: grid;
     grid-template-columns: auto auto auto;
-}
+    align-content: center;
+    justify-content: space-around;
+} */
 
-.dance-types-image-container img {
-    object-fit: cover;
-    width: 400px;
-    height: 400px;
+.dance-types-image-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
 }
