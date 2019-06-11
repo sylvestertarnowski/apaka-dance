@@ -2,6 +2,7 @@ import * as React from 'react';
 import Carousel from './main/Carousel';
 import Services from './main/Services';
 import DanceTypes from './main/DanceTypes';
+import TileCarousel from './main/TileCarousel';
 
 const Main: React.FC = () => {
     return (
@@ -9,6 +10,7 @@ const Main: React.FC = () => {
             <Carousel />
             <Services />
             <DanceTypes />
+            <TileCarousel />
         </div>
     )
 }

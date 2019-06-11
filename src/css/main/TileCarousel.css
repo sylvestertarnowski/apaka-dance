@@ -1,0 +1,5 @@
+.tile-carousel-container { 
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
