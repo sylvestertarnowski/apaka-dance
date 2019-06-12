@@ -3,7 +3,7 @@ import * as React from 'react';
 type P = {
     glyph: string;
     direction: string; 
-    clickFunction: () => void;
+    clickFunction?: () => void;
 }
 
 const CarouselNavButton: React.FC<P> = (props) => {

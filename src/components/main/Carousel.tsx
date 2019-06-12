@@ -16,10 +16,10 @@ class Carousel extends React.Component {
             imgTwo,
         ],
         imgText: [
-            "Build confidence and have fun",
-            "Learn to be the great at dancing",
-            "Build confidence and have fun",
-            "Learn to be the great at dancing",
+            "Tańcz z Alpką albo ZGIŃ!",
+            "Jeśli nie lubisz Alpak - wypad.",
+            "Tańcz z Alpką albo ZGIŃ!",
+            "Jeśli nie lubisz Alpak - wypad.",
         ]
     }
 
