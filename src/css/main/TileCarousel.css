@@ -3,9 +3,3 @@
     justify-content: center;
     align-items: stretch;
 }
-
-.title-carousel-container .slide-arrow {
-	color: rgb(242, 58, 45); 
-	cursor: pointer;
-    font-size: 2rem;
-}
