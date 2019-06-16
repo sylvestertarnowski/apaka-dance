@@ -2,3 +2,9 @@
     border: none;
     border-radius: 50%;
 }
+
+.round-sides-button a {
+    text-decoration-line: none;
+    color: inherit;
+    background-color: inherit;
+}
