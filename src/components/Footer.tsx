@@ -1,10 +1,13 @@
 import * as React from 'react';
+import WidthWrapper from './layout/WidthWrapper';
 
 const Footer: React.FC = () => {
     return (
-        <div>
-            Footer
-        </div>
+        <WidthWrapper>
+            <div className="footer-container">
+
+            </div>
+        </WidthWrapper>
     )
 }
 
