@@ -6,28 +6,28 @@ const Services: React.FC = () => {
     return (
         <TilesWrapper>
             <InfoTile
-                key="11"
+                key="115"
                 image=""
                 alt="latino dancing"
                 title="New Tile"
                 description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dignissim ut dolor quis convallis. Sed egestas quis augue id imperdiet. Ut non efficitur lorem. Sed maximus quam et lorem euismod vestibulum."
             />
             <InfoTile
-                key="22"
+                key="225"
                 image=""
                 alt="latino dancing"
                 title="New Tile"
                 description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dignissim ut dolor quis convallis. Sed egestas quis augue id imperdiet. Ut non efficitur lorem. Sed maximus quam et lorem euismod vestibulum."
             />
             <InfoTile
-                key="33"
+                key="335"
                 image=""
                 alt="latino dancing"
                 title="New Tile"
                 description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dignissim ut dolor quis convallis. Sed egestas quis augue id imperdiet. Ut non efficitur lorem. Sed maximus quam et lorem euismod vestibulum."
             />
             <InfoTile
-                key="44"
+                key="445"
                 image=""
                 alt="latino dancing"
                 title="New Tile"
