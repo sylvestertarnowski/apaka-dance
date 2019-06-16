@@ -12,6 +12,8 @@
 .info-tile-title {
     font-size: 20px;
     padding: 10px 0;
+    text-transform: uppercase;
+    font-weight: 300;
 }
 
 .info-tile-description {

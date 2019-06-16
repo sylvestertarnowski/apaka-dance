@@ -2,4 +2,27 @@
     display: flex;
     justify-content: center;
     align-items: stretch;
+    border-bottom: 1px solid grey;
+    background-color: #EEEEEE;
+}
+
+.tile-carousel-container .info-tile {
+    border-bottom: none;
+}
+
+.tile-carousel-container .info-tile .info-tile-title {
+    text-align: center;
+}
+
+.tile-carousel-container .info-tile .info-tile-title-border-bottom {
+    align-self: center;
+}
+
+.tile-carousel-container .info-tile .info-tile {
+    background-color: white;
+    margin: 0 10px;
+}
+
+.tile-carousel-container .info-tile .info-title .info-tile-title {
+    text-align: left;
 }

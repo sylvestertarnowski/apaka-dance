@@ -1,10 +1,14 @@
 .round-sides-button {
     border: none;
-    border-radius: 50%;
+    border-radius: 20px;
+    max-width: fit-content;
+    padding: 6px 20px;
+    font-size: 16px;
 }
 
 .round-sides-button a {
     text-decoration-line: none;
     color: inherit;
     background-color: inherit;
+    font-weight: 400;
 }

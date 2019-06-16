@@ -1,0 +1,18 @@
+.quick-menu-list a {
+    text-decoration-line: none;
+}
+
+.quick-menu-list a:visited {
+    color: inherit;
+}
+
+.quick-menu-list {
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.quick-menu-list li {
+    padding: 10px 0;
+    text-align: left;
+}
