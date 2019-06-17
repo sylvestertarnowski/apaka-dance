@@ -1,0 +1,8 @@
+.footer-contact-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-contact-info div {
+    margin-right: 20px;
+}

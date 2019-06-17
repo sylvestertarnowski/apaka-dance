@@ -1,5 +1,6 @@
 import * as React from 'react';
 import FooterSection from './FooterSection';
+import '../../css/footer/FooterContactInfo.css';
 
 const FooterContactInfo: React.FC = () => {
     const contactInfoNode = <div className="footer-contact-info">
