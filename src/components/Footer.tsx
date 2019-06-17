@@ -3,8 +3,8 @@ import '../css/footer/Footer.css';
 import WidthWrapper from './layout/WidthWrapper';
 import FooterAbout from './footer/FooterAbout';
 import FooterQuickMenu from './footer/FooterQuickMenu';
-// import FooterContactInfo from './footer/FooterContactInfo';
-// import FooterSocialIcons from './footer/FooterSocialIcons';
+import FooterContactInfo from './footer/FooterContactInfo';
+import FooterSocialIcons from './footer/FooterSocialIcons';
 
 const Footer: React.FC = () => {
     return (
@@ -12,8 +12,10 @@ const Footer: React.FC = () => {
             <WidthWrapper>
                 <FooterAbout />
                 <FooterQuickMenu />
-                {/* <FooterContactInfo />
-                <FooterSocialIcons /> */}
+                <div>
+                    <FooterContactInfo />
+                    <FooterSocialIcons />
+                </div>
             </WidthWrapper>
         </div>
     )
