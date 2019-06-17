@@ -4,6 +4,7 @@ import ImageInfo from './ImageInfo';
 import '../../css/main/DanceTypes.css';
 import imageOne from '../../img/placeholder-dance.jpg';
 import imageTwo from '../../img/placeholder-dance2.jpg';
+import WidthWrapper from '../layout/WidthWrapper';
 
 const exampleImageInfo = [
     <ImageInfo

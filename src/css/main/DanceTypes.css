@@ -23,3 +23,7 @@
     align-content: center;
     justify-content: center;
 }
+
+.dance-types-image-container .image-info-container {
+    margin: 15px;
+}
