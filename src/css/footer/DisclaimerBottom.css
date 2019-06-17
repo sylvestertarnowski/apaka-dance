@@ -1,0 +1,15 @@
+.disclaimer-bottom i {
+    padding: 0 3px;
+}
+
+.disclaimer-bottom {
+    text-align: center;
+}
+
+.disclaimer-bottom .fa-heart {
+    color: pink;
+}
+
+.disclaimer-bottom .fa-react {
+    color: blue;
+}
