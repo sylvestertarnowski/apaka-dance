@@ -6,6 +6,20 @@
 }
 
 .footer-container .width-wrapper {
+    padding: 0 20px;
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
+}
+
+@media(max-width: 1000px) {
+    .footer-container .width-wrapper {
+        grid-template-columns: 2fr 1fr;
+    }
+}
+
+@media(max-width: 600px) {
+    .footer-container .width-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
 }

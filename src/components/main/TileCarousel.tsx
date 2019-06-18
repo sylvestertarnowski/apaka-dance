@@ -47,7 +47,7 @@ class TileCarousel extends React.Component {
                 1200: {
                     slidesPerPage: 2,
                 },
-                1000: {
+                600: {
                     slidesPerPage: 1
                 },
             }}
