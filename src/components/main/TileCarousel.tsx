@@ -37,22 +37,31 @@ class TileCarousel extends React.Component {
         />
     ]
 
+    responsiveCarousel =
+        <Carousel
+            arrows
+            slidesPerPage={3}
+            slidesPerScroll={1}
+            infinite
+            breakpoints={{
+                1200: {
+                    slidesPerPage: 2,
+                },
+                1000: {
+                    slidesPerPage: 1
+                },
+            }}
+        >
+            {this.tiles}
+        </Carousel>
+
     render() {
         return (
             <div className="tile-carousel-container">
                 <WidthWrapper>
                     <InfoTile
                         title="Wspierane Aktywności"
-                        node={
-                            <Carousel
-                                arrows
-                                slidesPerPage={3}
-                                slidesPerScroll={1}
-                                infinite
-                            >
-                                {this.tiles}
-                            </Carousel>
-                        }
+                        node={this.responsiveCarousel}
                     />
                 </WidthWrapper>
             </div>
